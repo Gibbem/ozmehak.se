@@ -1,0 +1,8 @@
+.backgrnd {
+    background-image: url("rigel-Qx18LzMEAlY-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    /*filter: blur(6px);*/
+}

@@ -1,0 +1,99 @@
+
+
+
+
+
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: "nav header header btncontainer"
+    "nav main main aside"
+    "nav main main aside"
+    "footer footer footer footer";
+    grid-template-rows: 10% 10% 1fr 10%;
+    grid-template-columns: 20% 65% 1fr;
+    background-color: #191716;
+    color: #E6AF2E;
+
+
+
+}
+header {
+    grid-area: header;
+    margin: auto;
+
+
+
+}
+
+button {
+    background-color: #191716;
+    color: #E6AF2E;
+}
+.btncontainer {
+    grid-area: btncontainer;
+
+}
+
+nav {
+    grid-area: nav;
+
+}
+
+main {
+    grid-area: main;
+    padding: 10px;
+
+}
+
+
+footer {
+    grid-area: footer;
+}
+
+
+aside {
+    grid-area: aside;
+}
+article {
+    grid-area: article;
+}
+
+section {
+    grid-area: section;
+}
+
+input {
+    background-color: #191716;
+    color: #E6AF2E;
+}
+.btnpulse {
+
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+0% {
+    transform: scale(0.5);
+}
+    33% {
+        transform: scale(0.75);
+    }
+    66% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.25);
+    }
+
+}
+
+/*.backgrnd {*/
+/*    */
+/*    background-image: url("img/rigel-Qx18LzMEAlY-unsplash.jpg");*/
+/*    background-size: cover;*/
+/*    width: 100vw;*/
+/*    height: 100vh;*/
+/*}*/
